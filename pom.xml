@@ -34,6 +34,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <commonmark.javadoc.location>${project.basedir}/../commonmark/target/apidocs/</commonmark.javadoc.location>
+        <symphonyArtifactoryBaseUrl>https://repo.symphony.com/artifactory</symphonyArtifactoryBaseUrl>
     </properties>
 
     <build>
@@ -182,19 +183,6 @@
         </license>
     </licenses>
 
-    <distributionManagement>
-        <repository>
-            <id>symphony</id>
-            <name>Symphony Releases</name>
-            <url>https://repo.symphony.com/artifactory/libs-release-local</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>Symphony Snapshots</name>
-            <url>https://repo.symphony.com/artifactory/libs-snapshot-local</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <developers>
         <developer>
             <name>Robin Stocker</name>
@@ -204,6 +192,73 @@
         </developer>
     </developers>
  
+
+    <distributionManagement>
+        <repository>
+            <id>symphony</id>
+            <name>Symphony Releases</name>
+            <url>${symphonyArtifactoryBaseUrl}/libs-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Symphony Snapshots</name>
+            <url>${symphonyArtifactoryBaseUrl}/libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>symphony</id>
+            <name>symphony releases</name>
+            <url>${symphonyArtifactoryBaseUrl}/libs-release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>snapshots</id>
+            <url>${symphonyArtifactoryBaseUrl}/libs-snapshot</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+        <repository>
+            <id>sonatype-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>symphony</id>
+            <name>plugins-release</name>
+            <url>${symphonyArtifactoryBaseUrl}/plugins-release</url>
+        </pluginRepository>
+        <pluginRepository>
+            <snapshots/>
+            <id>snapshots</id>
+            <name>plugins-snapshot</name>
+            <url>${symphonyArtifactoryBaseUrl}/plugins-snapshot</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>sonatype-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
     <scm>
         <connection>scm:git:git@github.com:atlassian/commonmark-java.git</connection>
         <developerConnection>scm:git:git@github.com:atlassian/commonmark-java.git</developerConnection>
