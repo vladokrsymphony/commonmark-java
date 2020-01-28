@@ -49,14 +49,17 @@ public class DelimiterProcessorTest extends RenderingTestCase {
         assertRendering("{} {foo}", "<p> FOO</p>\n");
     }
 
+    /**
+     * Since makes conflic with the current underline parser we switched the parser to use ^
+     */
     @Test
     public void multipleDelimitersWithDifferentLengths() {
         Parser parser = Parser.builder()
                 .customDelimiterProcessor(new OneDelimiterProcessor())
                 .customDelimiterProcessor(new TwoDelimiterProcessor())
                 .build();
-        assertEquals("<p>(1)one(/1) (2)two(/2)</p>\n", RENDERER.render(parser.parse("+one+ ++two++")));
-        assertEquals("<p>(1)(2)both(/2)(/1)</p>\n", RENDERER.render(parser.parse("+++both+++")));
+        assertEquals("<p>(1)one(/1) (2)two(/2)</p>\n", RENDERER.render(parser.parse("^one^ ^^two^^")));
+        assertEquals("<p>(1)(2)both(/2)(/1)</p>\n", RENDERER.render(parser.parse("^^^both^^^")));
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -184,12 +187,12 @@ public class DelimiterProcessorTest extends RenderingTestCase {
 
         @Override
         public char getOpeningCharacter() {
-            return '+';
+            return '^';
         }
 
         @Override
         public char getClosingCharacter() {
-            return '+';
+            return '^';
         }
 
         @Override
@@ -213,12 +216,12 @@ public class DelimiterProcessorTest extends RenderingTestCase {
 
         @Override
         public char getOpeningCharacter() {
-            return '+';
+            return '^';
         }
 
         @Override
         public char getClosingCharacter() {
-            return '+';
+            return '^';
         }
 
         @Override

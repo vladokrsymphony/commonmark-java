@@ -54,4 +54,13 @@ public interface Visitor {
     void visit(CustomNode customNode);
 
     void visit(Underline underline);
+
+    void visit(Deleted deleted);
+
+    void visit(Superscript superscript);
+
+    void visit(Subscript superscript);
+
+    void visit(JiraHeading jiraHeading);
+
 }

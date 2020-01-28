@@ -68,7 +68,7 @@ Issue jgm/cmark#177 - incorrect emphasis parsing
 ```````````````````````````````` example
 a***b* c*
 .
-<p>a*<em><em>b</em> c</em></p>
+<p>a*<b><b>b</b> c</b></p>
 ````````````````````````````````
 
 Issue jgm/CommonMark#468 - backslash at end of link definition
@@ -85,7 +85,7 @@ Issue jgm/commonmark.js#121 - punctuation set different
 ```````````````````````````````` example
 ^_test_
 .
-<p>^<em>test</em></p>
+<p>^<i>test</i></p>
 ````````````````````````````````
 
 Issue #116 - tabs before and after ATX closing heading
@@ -154,7 +154,7 @@ Issue #161.
 *failed to be italic!*\
 text
 .
-<p><em>failed to be italic!</em><br />
+<p><b>failed to be italic!</b><br />
 text</p>
 ````````````````````````````````
 

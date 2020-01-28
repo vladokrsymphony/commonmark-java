@@ -24,7 +24,7 @@ public class UsageExampleTest {
         Parser parser = Parser.builder().build();
         Node document = parser.parse("This is *Sparta*");
         HtmlRenderer renderer = HtmlRenderer.builder().escapeHtml(true).build();
-        assertEquals("<p>This is <em>Sparta</em></p>\n", renderer.render(document));
+        assertEquals("<p>This is <b>Sparta</b></p>\n", renderer.render(document));
     }
 
     @Test

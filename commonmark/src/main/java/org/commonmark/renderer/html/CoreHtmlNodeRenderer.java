@@ -23,6 +23,7 @@ public class CoreHtmlNodeRenderer extends AbstractVisitor implements NodeRendere
         return new HashSet<>(Arrays.asList(
                 Document.class,
                 Heading.class,
+                JiraHeading.class,
                 Paragraph.class,
                 BlockQuote.class,
                 BulletList.class,
@@ -41,7 +42,10 @@ public class CoreHtmlNodeRenderer extends AbstractVisitor implements NodeRendere
                 HtmlInline.class,
                 SoftLineBreak.class,
                 HardLineBreak.class,
-                Underline.class
+                Underline.class,
+                Superscript.class,
+                Subscript.class,
+                Deleted.class
         ));
     }
 
@@ -209,9 +213,36 @@ public class CoreHtmlNodeRenderer extends AbstractVisitor implements NodeRendere
     @Override
     public void visit(Underline underline) {
         Map<String, String> attrs = new LinkedHashMap<>();
-        attrs.put("text-decoration", "underline");
+        attrs.put("style", "text-decoration:underline");
         html.tag("span", getAttrs(underline, "span", attrs));   
         visitChildren(underline);
+        html.tag("/span");
+    }
+
+    @Override
+    public void visit(Subscript subscript) {
+        Map<String, String> attrs = new LinkedHashMap<>();
+        attrs.put("style", "font-size:0.8em");
+        html.tag("span", getAttrs(subscript, "span", attrs));   
+        visitChildren(subscript);
+        html.tag("/span");
+    }
+
+    @Override
+    public void visit(Superscript superscript) {
+        Map<String, String> attrs = new LinkedHashMap<>();
+        attrs.put("style", "font-size:0.8em");
+        html.tag("span", getAttrs(superscript, "span", attrs));   
+        visitChildren(superscript);
+        html.tag("/span");
+    }
+
+    @Override
+    public void visit(Deleted deleted) {
+        Map<String, String> attrs = new LinkedHashMap<>();
+        attrs.put("style", "text-decoration:line-through");
+        html.tag("span", getAttrs(deleted, "span", attrs));   
+        visitChildren(deleted);
         html.tag("/span");
     }
 

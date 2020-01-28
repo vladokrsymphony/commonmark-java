@@ -39,6 +39,21 @@ public abstract class AbstractVisitor implements Visitor {
     }
 
     @Override
+    public void visit(Superscript superscript) {
+        visitChildren(superscript);
+    }
+
+    @Override
+    public void visit(Subscript subscript) {
+        visitChildren(subscript);
+    }
+
+    @Override
+    public void visit(Deleted deleted) {
+        visitChildren(deleted);
+    }
+
+    @Override
     public void visit(FencedCodeBlock fencedCodeBlock) {
         visitChildren(fencedCodeBlock);
     }
@@ -50,6 +65,11 @@ public abstract class AbstractVisitor implements Visitor {
 
     @Override
     public void visit(Heading heading) {
+        visitChildren(heading);
+    }
+
+    @Override
+    public void visit(JiraHeading heading) {
         visitChildren(heading);
     }
 

@@ -31,6 +31,7 @@ public class PathologicalTest extends CoreRenderingTestCase {
         }
     };
 
+    /* No nested emphasis in jira markdown
     @Test
     public void nestedStrongEmphasis() {
         // this is limited by the stack size because visitor is recursive
@@ -40,7 +41,7 @@ public class PathologicalTest extends CoreRenderingTestCase {
                 "<p>" + repeat("<em>a <strong>a ", x) + "b" +
                         repeat(" a</strong> a</em>", x) + "</p>\n");
     }
-
+    */
     @Test
     public void emphasisClosersWithNoOpeners() {
         assertRendering(

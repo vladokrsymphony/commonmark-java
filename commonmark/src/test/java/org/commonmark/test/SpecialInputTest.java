@@ -135,10 +135,12 @@ public class SpecialInputTest extends CoreRenderingTestCase {
     }
 
     // commonmark/cmark#177
+    /* We do not have nested emphasis in jira markdown
     @Test
     public void emphasisMultipleOf3Rule() {
         assertRendering("a***b* c*", "<p>a*<em><em>b</em> c</em></p>\n");
     }
+    */
 
     @Test
     public void renderEvenRegexpProducesStackoverflow() {
