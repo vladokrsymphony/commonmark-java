@@ -69,11 +69,6 @@ public abstract class AbstractVisitor implements Visitor {
     }
 
     @Override
-    public void visit(JiraHeading heading) {
-        visitChildren(heading);
-    }
-
-    @Override
     public void visit(ThematicBreak thematicBreak) {
         visitChildren(thematicBreak);
     }
@@ -146,6 +141,11 @@ public abstract class AbstractVisitor implements Visitor {
     @Override
     public void visit(CustomNode customNode) {
         visitChildren(customNode);
+    }
+
+    @Override
+    public void visit(Monospace prefromatted) {
+        visitChildren(prefromatted);
     }
 
     /**

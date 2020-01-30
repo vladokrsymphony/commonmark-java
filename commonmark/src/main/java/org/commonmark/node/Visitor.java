@@ -61,6 +61,5 @@ public interface Visitor {
 
     void visit(Subscript superscript);
 
-    void visit(JiraHeading jiraHeading);
-
+    void visit(Monospace prefromatted);
 }

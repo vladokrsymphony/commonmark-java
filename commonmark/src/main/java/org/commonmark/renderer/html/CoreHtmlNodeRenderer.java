@@ -23,7 +23,6 @@ public class CoreHtmlNodeRenderer extends AbstractVisitor implements NodeRendere
         return new HashSet<>(Arrays.asList(
                 Document.class,
                 Heading.class,
-                JiraHeading.class,
                 Paragraph.class,
                 BlockQuote.class,
                 BulletList.class,
@@ -45,7 +44,8 @@ public class CoreHtmlNodeRenderer extends AbstractVisitor implements NodeRendere
                 Underline.class,
                 Superscript.class,
                 Subscript.class,
-                Deleted.class
+                Deleted.class,
+                Monospace.class
         ));
     }
 
@@ -247,6 +247,15 @@ public class CoreHtmlNodeRenderer extends AbstractVisitor implements NodeRendere
     }
 
     @Override
+    public void visit(Monospace monospace) {
+        Map<String, String> attrs = new LinkedHashMap<>();
+        attrs.put("style", "font-family: monospace");
+        html.tag("span", getAttrs(monospace, "span", attrs));   
+        visitChildren(monospace);
+        html.tag("/span");
+    }
+
+    @Override
     public void visit(StrongEmphasis strongEmphasis) {
         html.tag("b", getAttrs(strongEmphasis, "b"));
         visitChildren(strongEmphasis);
@@ -296,13 +305,14 @@ public class CoreHtmlNodeRenderer extends AbstractVisitor implements NodeRendere
         }
     }
 
+    // MessageML does not support <pre> and <code> nesting
     private void renderCodeBlock(String literal, Node node, Map<String, String> attributes) {
         html.line();
-        html.tag("pre", getAttrs(node, "pre"));
+        // html.tag("pre", getAttrs(node, "pre"));
         html.tag("code", getAttrs(node, "code", attributes));
         html.text(literal);
         html.tag("/code");
-        html.tag("/pre");
+        // html.tag("/pre");
         html.line();
     }
 

@@ -3,6 +3,7 @@ package org.commonmark.internal;
 import org.commonmark.internal.inline.BoldDelimiterProcessor;
 import org.commonmark.internal.inline.DeletedDelimiterProcessor;
 import org.commonmark.internal.inline.ItalicDelimiterProcessor;
+import org.commonmark.internal.inline.MonospaceDelimiterProcessor;
 import org.commonmark.internal.inline.SubscriptDelimiterProcessor;
 import org.commonmark.internal.inline.SuperscriptDelimiterProcessor;
 import org.commonmark.internal.inline.UnderlineDelimiterProcessor;
@@ -108,7 +109,8 @@ public class InlineParserImpl implements InlineParser {
     public static Map<Character, DelimiterProcessor> calculateDelimiterProcessors(List<DelimiterProcessor> delimiterProcessors) {
         Map<Character, DelimiterProcessor> map = new HashMap<>();
         addDelimiterProcessors(Arrays.<DelimiterProcessor>asList(new BoldDelimiterProcessor(), new UnderlineDelimiterProcessor(), new ItalicDelimiterProcessor(), 
-                                                                 new SubscriptDelimiterProcessor(), new SuperscriptDelimiterProcessor(), new DeletedDelimiterProcessor()), map);
+                                                                 new SubscriptDelimiterProcessor(), new SuperscriptDelimiterProcessor(), new DeletedDelimiterProcessor(), 
+                                                                 new MonospaceDelimiterProcessor()), map);
         addDelimiterProcessors(delimiterProcessors, map);
         return map;
     }
