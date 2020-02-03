@@ -249,7 +249,7 @@ public class CoreHtmlNodeRenderer extends AbstractVisitor implements NodeRendere
     @Override
     public void visit(Monospace monospace) {
         Map<String, String> attrs = new LinkedHashMap<>();
-        attrs.put("style", "font-family: monospace");
+        attrs.put("style", "font-family:monospace");
         html.tag("span", getAttrs(monospace, "span", attrs));   
         visitChildren(monospace);
         html.tag("/span");
