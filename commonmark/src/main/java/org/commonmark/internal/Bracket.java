@@ -1,6 +1,6 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.node.Text;
+import org.krvlado.commonmark.node.Text;
 
 /**
  * Opening bracket for links (<code>[</code>) or images (<code>![</code>).

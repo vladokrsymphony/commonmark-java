@@ -1,4 +1,4 @@
-package org.commonmark.node;
+package org.krvlado.commonmark.node;
 
 public abstract class CustomBlock extends Block {
 

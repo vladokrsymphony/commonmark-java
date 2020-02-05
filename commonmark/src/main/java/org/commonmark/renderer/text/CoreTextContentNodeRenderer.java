@@ -1,10 +1,10 @@
-package org.commonmark.renderer.text;
+package org.krvlado.commonmark.renderer.text;
 
-import org.commonmark.node.*;
-import org.commonmark.renderer.NodeRenderer;
-import org.commonmark.internal.renderer.text.BulletListHolder;
-import org.commonmark.internal.renderer.text.ListHolder;
-import org.commonmark.internal.renderer.text.OrderedListHolder;
+import org.krvlado.commonmark.node.*;
+import org.krvlado.commonmark.renderer.NodeRenderer;
+import org.krvlado.commonmark.internal.renderer.text.BulletListHolder;
+import org.krvlado.commonmark.internal.renderer.text.ListHolder;
+import org.krvlado.commonmark.internal.renderer.text.OrderedListHolder;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,7 +1,7 @@
-package org.commonmark.renderer.html;
+package org.krvlado.commonmark.renderer.html;
 
-import org.commonmark.node.Image;
-import org.commonmark.node.Link;
+import org.krvlado.commonmark.node.Image;
+import org.krvlado.commonmark.node.Link;
 
 /**
  * Sanitizes urls for img and a elements by whitelisting protocols.

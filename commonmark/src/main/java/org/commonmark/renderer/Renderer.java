@@ -1,6 +1,6 @@
-package org.commonmark.renderer;
+package org.krvlado.commonmark.renderer;
 
-import org.commonmark.node.Node;
+import org.krvlado.commonmark.node.Node;
 
 public interface Renderer {
 

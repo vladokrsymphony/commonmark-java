@@ -1,7 +1,7 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.parser.block.BlockParser;
-import org.commonmark.parser.block.BlockStart;
+import org.krvlado.commonmark.parser.block.BlockParser;
+import org.krvlado.commonmark.parser.block.BlockStart;
 
 public class BlockStartImpl extends BlockStart {
 

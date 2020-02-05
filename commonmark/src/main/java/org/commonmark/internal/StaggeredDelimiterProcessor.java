@@ -1,8 +1,8 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.node.Text;
-import org.commonmark.parser.delimiter.DelimiterProcessor;
-import org.commonmark.parser.delimiter.DelimiterRun;
+import org.krvlado.commonmark.node.Text;
+import org.krvlado.commonmark.parser.delimiter.DelimiterProcessor;
+import org.krvlado.commonmark.parser.delimiter.DelimiterRun;
 
 import java.util.LinkedList;
 import java.util.ListIterator;

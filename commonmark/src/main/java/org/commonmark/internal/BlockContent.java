@@ -1,4 +1,4 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
 class BlockContent {
 

@@ -1,10 +1,10 @@
-package org.commonmark.internal.inline;
+package org.krvlado.commonmark.internal.inline;
 
-import org.commonmark.node.Node;
-import org.commonmark.node.Monospace;
-import org.commonmark.node.Text;
-import org.commonmark.parser.delimiter.DelimiterProcessor;
-import org.commonmark.parser.delimiter.DelimiterRun;
+import org.krvlado.commonmark.node.Node;
+import org.krvlado.commonmark.node.Monospace;
+import org.krvlado.commonmark.node.Text;
+import org.krvlado.commonmark.parser.delimiter.DelimiterProcessor;
+import org.krvlado.commonmark.parser.delimiter.DelimiterRun;
 
 public class MonospaceDelimiterProcessor implements DelimiterProcessor {
 

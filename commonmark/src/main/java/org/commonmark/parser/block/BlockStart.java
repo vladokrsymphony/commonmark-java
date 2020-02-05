@@ -1,6 +1,6 @@
-package org.commonmark.parser.block;
+package org.krvlado.commonmark.parser.block;
 
-import org.commonmark.internal.BlockStartImpl;
+import org.krvlado.commonmark.internal.BlockStartImpl;
 
 /**
  * Result object for starting parsing of a block, see static methods for constructors.

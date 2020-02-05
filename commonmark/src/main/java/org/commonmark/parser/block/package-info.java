@@ -1,4 +1,4 @@
 /**
  * Types for extending block parsing
  */
-package org.commonmark.parser.block;
+package org.krvlado.commonmark.parser.block;

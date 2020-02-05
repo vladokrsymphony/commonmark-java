@@ -1,5 +1,5 @@
 /*
-package org.commonmark.internal.inline;
+package org.krvlado.commonmark.internal.inline;
 
 public class AsteriskDelimiterProcessor extends EmphasisDelimiterProcessor {
 

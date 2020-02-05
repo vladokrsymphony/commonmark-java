@@ -1,6 +1,6 @@
-package org.commonmark.parser;
+package org.krvlado.commonmark.parser;
 
-import org.commonmark.node.Node;
+import org.krvlado.commonmark.node.Node;
 
 /**
  * Parser for inline content (text, links, emphasized text, etc).

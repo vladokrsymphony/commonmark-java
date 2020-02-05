@@ -1,6 +1,6 @@
-package org.commonmark.renderer.html;
+package org.krvlado.commonmark.renderer.html;
 
-import org.commonmark.internal.util.Escaping;
+import org.krvlado.commonmark.internal.util.Escaping;
 
 import java.io.IOException;
 import java.util.Collections;

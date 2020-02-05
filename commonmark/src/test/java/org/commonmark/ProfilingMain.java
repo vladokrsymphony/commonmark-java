@@ -1,7 +1,7 @@
 package org.commonmark;
 
-import org.commonmark.parser.Parser;
-import org.commonmark.renderer.html.HtmlRenderer;
+import org.krvlado.commonmark.parser.Parser;
+import org.krvlado.commonmark.renderer.html.HtmlRenderer;
 import org.commonmark.testutil.TestResources;
 
 import java.util.Collections;

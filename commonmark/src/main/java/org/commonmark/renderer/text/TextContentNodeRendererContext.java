@@ -1,6 +1,6 @@
-package org.commonmark.renderer.text;
+package org.krvlado.commonmark.renderer.text;
 
-import org.commonmark.node.Node;
+import org.krvlado.commonmark.node.Node;
 
 public interface TextContentNodeRendererContext {
 

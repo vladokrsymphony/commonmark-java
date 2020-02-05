@@ -1,4 +1,4 @@
 /**
- * AST node types (see {@link org.commonmark.node.Node}) and visitors (see {@link org.commonmark.node.AbstractVisitor})
+ * AST node types (see {@link org.krvlado.commonmark.node.Node}) and visitors (see {@link org.krvlado.commonmark.node.AbstractVisitor})
  */
-package org.commonmark.node;
+package org.krvlado.commonmark.node;

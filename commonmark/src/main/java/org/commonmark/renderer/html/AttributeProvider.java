@@ -1,6 +1,6 @@
-package org.commonmark.renderer.html;
+package org.krvlado.commonmark.renderer.html;
 
-import org.commonmark.node.Node;
+import org.krvlado.commonmark.node.Node;
 
 import java.util.Map;
 

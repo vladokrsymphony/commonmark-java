@@ -1,8 +1,8 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.node.LinkReferenceDefinition;
-import org.commonmark.parser.InlineParserContext;
-import org.commonmark.parser.delimiter.DelimiterProcessor;
+import org.krvlado.commonmark.node.LinkReferenceDefinition;
+import org.krvlado.commonmark.parser.InlineParserContext;
+import org.krvlado.commonmark.parser.delimiter.DelimiterProcessor;
 
 import java.util.List;
 import java.util.Map;

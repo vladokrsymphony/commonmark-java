@@ -1,7 +1,7 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.node.*;
-import org.commonmark.parser.block.BlockParserFactory;
+import org.krvlado.commonmark.node.*;
+import org.krvlado.commonmark.parser.block.BlockParserFactory;
 import org.junit.Test;
 
 import java.util.Arrays;

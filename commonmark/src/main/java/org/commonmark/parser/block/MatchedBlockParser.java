@@ -1,4 +1,4 @@
-package org.commonmark.parser.block;
+package org.krvlado.commonmark.parser.block;
 
 /**
  * Open block parser that was last matched during the continue phase. This is different from the currently active

@@ -1,4 +1,4 @@
-package org.commonmark.node;
+package org.krvlado.commonmark.node;
 
 /**
  * A link with a destination and an optional title; the link text is in child nodes.

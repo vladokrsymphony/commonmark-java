@@ -2,9 +2,9 @@
 <body>
 <b>Java implementation of CommonMark for parsing markdown and rendering to HTML (core library)</b>
 <p>Example:</p>
-<pre><code>    import org.commonmark.node.*;
-    import org.commonmark.parser.Parser;
-    import org.commonmark.renderer.html.HtmlRenderer;
+<pre><code>    import org.krvlado.commonmark.node.*;
+    import org.krvlado.commonmark.parser.Parser;
+    import org.krvlado.commonmark.renderer.html.HtmlRenderer;
 
     Parser parser = Parser.builder().build();
     Node document = parser.parse("This is *Sparta*");
@@ -13,9 +13,9 @@
 </code></pre>
 <p>See the following packages for details:</p>
 <ul>
-<li>{@link org.commonmark.parser} for parsing input text to AST nodes</li>
-<li>{@link org.commonmark.node} for AST node types and visitors</li>
-<li>{@link org.commonmark.renderer.html} for HTML rendering</li>
+<li>{@link org.krvlado.commonmark.parser} for parsing input text to AST nodes</li>
+<li>{@link org.krvlado.commonmark.node} for AST node types and visitors</li>
+<li>{@link org.krvlado.commonmark.renderer.html} for HTML rendering</li>
 </ul>
 </body>
 </html>

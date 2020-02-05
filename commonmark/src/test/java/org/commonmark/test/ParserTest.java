@@ -1,12 +1,12 @@
-package org.commonmark.test;
+package org.krvlado.commonmark.test;
 
-import org.commonmark.node.*;
-import org.commonmark.parser.InlineParser;
-import org.commonmark.parser.InlineParserContext;
-import org.commonmark.parser.InlineParserFactory;
-import org.commonmark.parser.Parser;
-import org.commonmark.parser.block.*;
-import org.commonmark.renderer.html.HtmlRenderer;
+import org.krvlado.commonmark.node.*;
+import org.krvlado.commonmark.parser.InlineParser;
+import org.krvlado.commonmark.parser.InlineParserContext;
+import org.krvlado.commonmark.parser.InlineParserFactory;
+import org.krvlado.commonmark.parser.Parser;
+import org.krvlado.commonmark.parser.block.*;
+import org.krvlado.commonmark.renderer.html.HtmlRenderer;
 import org.commonmark.testutil.TestResources;
 import org.junit.Test;
 

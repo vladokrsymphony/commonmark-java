@@ -1,4 +1,4 @@
 /**
- * Text content rendering (see {@link org.commonmark.renderer.text.TextContentRenderer})
+ * Text content rendering (see {@link org.krvlado.commonmark.renderer.text.TextContentRenderer})
  */
-package org.commonmark.renderer.text;
+package org.krvlado.commonmark.renderer.text;

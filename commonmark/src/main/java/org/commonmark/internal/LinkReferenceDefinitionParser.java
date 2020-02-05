@@ -1,9 +1,9 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.internal.util.Escaping;
-import org.commonmark.internal.util.LinkScanner;
-import org.commonmark.internal.util.Parsing;
-import org.commonmark.node.LinkReferenceDefinition;
+import org.krvlado.commonmark.internal.util.Escaping;
+import org.krvlado.commonmark.internal.util.LinkScanner;
+import org.krvlado.commonmark.internal.util.Parsing;
+import org.krvlado.commonmark.node.LinkReferenceDefinition;
 
 import java.util.ArrayList;
 import java.util.List;

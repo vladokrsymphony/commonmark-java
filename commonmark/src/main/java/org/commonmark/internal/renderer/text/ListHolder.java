@@ -1,4 +1,4 @@
-package org.commonmark.internal.renderer.text;
+package org.krvlado.commonmark.internal.renderer.text;
 
 public abstract class ListHolder {
     private static final String INDENT_DEFAULT = "   ";

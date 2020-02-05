@@ -1,4 +1,4 @@
-package org.commonmark.node;
+package org.krvlado.commonmark.node;
 
 /**
  * Inline HTML element.

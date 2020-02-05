@@ -7,7 +7,7 @@
         <version>0.14.1.patch-krvlado</version>
     </parent>
 
-    <artifactId>commonmark</artifactId>
+    <artifactId>commonmark-krvlado</artifactId>
     <name>commonmark-java core</name>
     <description>Core of commonmark-java (implementation of CommonMark for parsing markdown and rendering to HTML)</description>
 
@@ -61,7 +61,7 @@
                             <arguments>
                                 <argument>-classpath</argument>
                                 <classpath />
-                                <argument>org.commonmark.test.SpecBenchmark</argument>
+                                <argument>org.krvlado.commonmark.test.SpecBenchmark</argument>
                             </arguments>
                         </configuration>
                     </plugin>

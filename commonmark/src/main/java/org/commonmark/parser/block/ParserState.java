@@ -1,4 +1,4 @@
-package org.commonmark.parser.block;
+package org.krvlado.commonmark.parser.block;
 
 /**
  * State of the parser that is used in block parsers.

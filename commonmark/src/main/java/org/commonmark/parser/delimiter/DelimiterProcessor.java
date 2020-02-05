@@ -1,6 +1,6 @@
-package org.commonmark.parser.delimiter;
+package org.krvlado.commonmark.parser.delimiter;
 
-import org.commonmark.node.Text;
+import org.krvlado.commonmark.node.Text;
 
 /**
  * Custom delimiter processor for additional delimiters besides {@code _} and {@code *}.

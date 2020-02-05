@@ -1,4 +1,4 @@
-package org.commonmark.renderer.html;
+package org.krvlado.commonmark.renderer.html;
 
 /**
  * Factory for instantiating new attribute providers when rendering is done.

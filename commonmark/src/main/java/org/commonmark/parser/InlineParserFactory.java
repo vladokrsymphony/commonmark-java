@@ -1,4 +1,4 @@
-package org.commonmark.parser;
+package org.krvlado.commonmark.parser;
 
 /**
  * Factory for custom inline parser.

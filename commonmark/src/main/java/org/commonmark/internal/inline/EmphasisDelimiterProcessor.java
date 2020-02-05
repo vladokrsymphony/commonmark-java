@@ -1,11 +1,11 @@
-package org.commonmark.internal.inline;
+package org.krvlado.commonmark.internal.inline;
 
-import org.commonmark.node.Emphasis;
-import org.commonmark.node.Node;
-import org.commonmark.node.StrongEmphasis;
-import org.commonmark.node.Text;
-import org.commonmark.parser.delimiter.DelimiterProcessor;
-import org.commonmark.parser.delimiter.DelimiterRun;
+import org.krvlado.commonmark.node.Emphasis;
+import org.krvlado.commonmark.node.Node;
+import org.krvlado.commonmark.node.StrongEmphasis;
+import org.krvlado.commonmark.node.Text;
+import org.krvlado.commonmark.parser.delimiter.DelimiterProcessor;
+import org.krvlado.commonmark.parser.delimiter.DelimiterRun;
 
 public abstract class EmphasisDelimiterProcessor implements DelimiterProcessor {
 

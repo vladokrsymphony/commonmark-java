@@ -1,8 +1,8 @@
-package org.commonmark.internal.inline;
+package org.krvlado.commonmark.internal.inline;
 
-import org.commonmark.node.Deleted;
-import org.commonmark.node.Node;
-import org.commonmark.node.Text;
+import org.krvlado.commonmark.node.Deleted;
+import org.krvlado.commonmark.node.Node;
+import org.krvlado.commonmark.node.Text;
 
 public class DeletedDelimiterProcessor extends EmphasisDelimiterProcessor {
 

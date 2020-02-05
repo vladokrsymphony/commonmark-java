@@ -1,7 +1,7 @@
-package org.commonmark.internal.renderer;
+package org.krvlado.commonmark.internal.renderer;
 
-import org.commonmark.node.Node;
-import org.commonmark.renderer.NodeRenderer;
+import org.krvlado.commonmark.node.Node;
+import org.krvlado.commonmark.renderer.NodeRenderer;
 
 import java.util.HashMap;
 import java.util.Map;

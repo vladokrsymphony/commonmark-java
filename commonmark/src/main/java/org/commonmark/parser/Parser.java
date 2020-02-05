@@ -1,12 +1,12 @@
-package org.commonmark.parser;
+package org.krvlado.commonmark.parser;
 
-import org.commonmark.Extension;
-import org.commonmark.internal.DocumentParser;
-import org.commonmark.internal.InlineParserContextImpl;
-import org.commonmark.internal.InlineParserImpl;
-import org.commonmark.node.*;
-import org.commonmark.parser.block.BlockParserFactory;
-import org.commonmark.parser.delimiter.DelimiterProcessor;
+import org.krvlado.commonmark.Extension;
+import org.krvlado.commonmark.internal.DocumentParser;
+import org.krvlado.commonmark.internal.InlineParserContextImpl;
+import org.krvlado.commonmark.internal.InlineParserImpl;
+import org.krvlado.commonmark.node.*;
+import org.krvlado.commonmark.parser.block.BlockParserFactory;
+import org.krvlado.commonmark.parser.delimiter.DelimiterProcessor;
 
 import java.io.IOException;
 import java.io.Reader;

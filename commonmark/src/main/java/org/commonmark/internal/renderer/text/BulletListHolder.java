@@ -1,6 +1,6 @@
-package org.commonmark.internal.renderer.text;
+package org.krvlado.commonmark.internal.renderer.text;
 
-import org.commonmark.node.BulletList;
+import org.krvlado.commonmark.node.BulletList;
 
 public class BulletListHolder extends ListHolder {
     private final char marker;

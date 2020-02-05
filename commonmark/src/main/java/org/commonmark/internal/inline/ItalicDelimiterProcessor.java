@@ -1,8 +1,8 @@
-package org.commonmark.internal.inline;
+package org.krvlado.commonmark.internal.inline;
 
-import org.commonmark.node.Emphasis;
-import org.commonmark.node.Node;
-import org.commonmark.node.Text;
+import org.krvlado.commonmark.node.Emphasis;
+import org.krvlado.commonmark.node.Node;
+import org.krvlado.commonmark.node.Text;
 
 public class ItalicDelimiterProcessor extends EmphasisDelimiterProcessor {
 

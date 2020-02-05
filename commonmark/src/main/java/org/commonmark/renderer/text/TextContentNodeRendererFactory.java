@@ -1,6 +1,6 @@
-package org.commonmark.renderer.text;
+package org.krvlado.commonmark.renderer.text;
 
-import org.commonmark.renderer.NodeRenderer;
+import org.krvlado.commonmark.renderer.NodeRenderer;
 
 /**
  * Factory for instantiating new node renderers when rendering is done.

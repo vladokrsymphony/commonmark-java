@@ -1,6 +1,6 @@
-package org.commonmark.test;
+package org.krvlado.commonmark.test;
 
-import org.commonmark.renderer.text.TextContentWriter;
+import org.krvlado.commonmark.renderer.text.TextContentWriter;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,7 +1,7 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.internal.LinkReferenceDefinitionParser.State;
-import org.commonmark.node.LinkReferenceDefinition;
+import org.krvlado.commonmark.internal.LinkReferenceDefinitionParser.State;
+import org.krvlado.commonmark.node.LinkReferenceDefinition;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

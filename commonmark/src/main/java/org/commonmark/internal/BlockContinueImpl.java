@@ -1,6 +1,6 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.parser.block.BlockContinue;
+import org.krvlado.commonmark.parser.block.BlockContinue;
 
 public class BlockContinueImpl extends BlockContinue {
 

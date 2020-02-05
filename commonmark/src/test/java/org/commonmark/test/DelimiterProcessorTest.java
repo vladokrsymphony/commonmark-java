@@ -1,15 +1,15 @@
-package org.commonmark.test;
+package org.krvlado.commonmark.test;
 
-import org.commonmark.node.CustomNode;
-import org.commonmark.node.Node;
-import org.commonmark.node.Text;
-import org.commonmark.parser.Parser;
-import org.commonmark.parser.delimiter.DelimiterProcessor;
-import org.commonmark.parser.delimiter.DelimiterRun;
-import org.commonmark.renderer.NodeRenderer;
-import org.commonmark.renderer.html.HtmlNodeRendererContext;
-import org.commonmark.renderer.html.HtmlNodeRendererFactory;
-import org.commonmark.renderer.html.HtmlRenderer;
+import org.krvlado.commonmark.node.CustomNode;
+import org.krvlado.commonmark.node.Node;
+import org.krvlado.commonmark.node.Text;
+import org.krvlado.commonmark.parser.Parser;
+import org.krvlado.commonmark.parser.delimiter.DelimiterProcessor;
+import org.krvlado.commonmark.parser.delimiter.DelimiterRun;
+import org.krvlado.commonmark.renderer.NodeRenderer;
+import org.krvlado.commonmark.renderer.html.HtmlNodeRendererContext;
+import org.krvlado.commonmark.renderer.html.HtmlNodeRendererFactory;
+import org.krvlado.commonmark.renderer.html.HtmlRenderer;
 import org.commonmark.testutil.RenderingTestCase;
 import org.junit.Test;
 

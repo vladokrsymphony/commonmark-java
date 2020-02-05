@@ -1,10 +1,10 @@
-package org.commonmark.test;
+package org.krvlado.commonmark.test;
 
-import org.commonmark.renderer.html.HtmlRenderer;
-import org.commonmark.node.AbstractVisitor;
-import org.commonmark.node.Node;
-import org.commonmark.node.Text;
-import org.commonmark.parser.Parser;
+import org.krvlado.commonmark.renderer.html.HtmlRenderer;
+import org.krvlado.commonmark.node.AbstractVisitor;
+import org.krvlado.commonmark.node.Node;
+import org.krvlado.commonmark.node.Text;
+import org.krvlado.commonmark.parser.Parser;
 import org.commonmark.testutil.SpecTestCase;
 import org.commonmark.testutil.example.Example;
 import org.junit.Test;

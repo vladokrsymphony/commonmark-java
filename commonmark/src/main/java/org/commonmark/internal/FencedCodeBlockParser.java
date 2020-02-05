@@ -1,11 +1,11 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.internal.util.Parsing;
-import org.commonmark.node.Block;
-import org.commonmark.node.FencedCodeBlock;
-import org.commonmark.parser.block.*;
+import org.krvlado.commonmark.internal.util.Parsing;
+import org.krvlado.commonmark.node.Block;
+import org.krvlado.commonmark.node.FencedCodeBlock;
+import org.krvlado.commonmark.parser.block.*;
 
-import static org.commonmark.internal.util.Escaping.unescapeString;
+import static org.krvlado.commonmark.internal.util.Escaping.unescapeString;
 
 public class FencedCodeBlockParser extends AbstractBlockParser {
 

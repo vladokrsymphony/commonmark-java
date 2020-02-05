@@ -1,4 +1,4 @@
-package org.commonmark.internal.util;
+package org.krvlado.commonmark.internal.util;
 
 import java.nio.charset.Charset;
 import java.util.Locale;

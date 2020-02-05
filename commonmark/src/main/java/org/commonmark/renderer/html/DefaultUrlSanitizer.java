@@ -1,4 +1,4 @@
-package org.commonmark.renderer.html;
+package org.krvlado.commonmark.renderer.html;
 
 import java.util.Arrays;
 import java.util.Collection;

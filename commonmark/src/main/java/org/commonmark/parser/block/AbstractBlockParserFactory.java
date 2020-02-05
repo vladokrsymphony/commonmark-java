@@ -1,4 +1,4 @@
-package org.commonmark.parser.block;
+package org.krvlado.commonmark.parser.block;
 
 public abstract class AbstractBlockParserFactory implements BlockParserFactory {
 }

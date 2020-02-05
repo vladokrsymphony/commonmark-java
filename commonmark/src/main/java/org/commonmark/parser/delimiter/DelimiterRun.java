@@ -1,4 +1,4 @@
-package org.commonmark.parser.delimiter;
+package org.krvlado.commonmark.parser.delimiter;
 
 /**
  * A delimiter run is one or more of the same delimiter character.

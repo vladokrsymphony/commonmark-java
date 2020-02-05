@@ -1,9 +1,9 @@
-package org.commonmark.test;
+package org.krvlado.commonmark.test;
 
-import org.commonmark.node.*;
-import org.commonmark.parser.Parser;
-import org.commonmark.renderer.NodeRenderer;
-import org.commonmark.renderer.html.*;
+import org.krvlado.commonmark.node.*;
+import org.krvlado.commonmark.parser.Parser;
+import org.krvlado.commonmark.renderer.NodeRenderer;
+import org.krvlado.commonmark.renderer.html.*;
 import org.junit.Ignore;
 import org.junit.Test;
 

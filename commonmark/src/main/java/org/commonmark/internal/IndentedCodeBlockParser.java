@@ -1,10 +1,10 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.internal.util.Parsing;
-import org.commonmark.node.Block;
-import org.commonmark.node.IndentedCodeBlock;
-import org.commonmark.node.Paragraph;
-import org.commonmark.parser.block.*;
+import org.krvlado.commonmark.internal.util.Parsing;
+import org.krvlado.commonmark.node.Block;
+import org.krvlado.commonmark.node.IndentedCodeBlock;
+import org.krvlado.commonmark.node.Paragraph;
+import org.krvlado.commonmark.parser.block.*;
 
 import java.util.ArrayList;
 import java.util.List;

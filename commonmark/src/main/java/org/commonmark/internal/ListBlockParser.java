@@ -1,8 +1,8 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.internal.util.Parsing;
-import org.commonmark.node.*;
-import org.commonmark.parser.block.*;
+import org.krvlado.commonmark.internal.util.Parsing;
+import org.krvlado.commonmark.node.*;
+import org.krvlado.commonmark.parser.block.*;
 
 public class ListBlockParser extends AbstractBlockParser {
 

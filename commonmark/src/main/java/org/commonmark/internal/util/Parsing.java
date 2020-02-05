@@ -1,4 +1,4 @@
-package org.commonmark.internal.util;
+package org.krvlado.commonmark.internal.util;
 
 public class Parsing {
 

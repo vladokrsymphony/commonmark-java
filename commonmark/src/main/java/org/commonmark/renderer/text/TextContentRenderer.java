@@ -1,10 +1,10 @@
-package org.commonmark.renderer.text;
+package org.krvlado.commonmark.renderer.text;
 
-import org.commonmark.Extension;
-import org.commonmark.internal.renderer.NodeRendererMap;
-import org.commonmark.node.Node;
-import org.commonmark.renderer.NodeRenderer;
-import org.commonmark.renderer.Renderer;
+import org.krvlado.commonmark.Extension;
+import org.krvlado.commonmark.internal.renderer.NodeRendererMap;
+import org.krvlado.commonmark.node.Node;
+import org.krvlado.commonmark.renderer.NodeRenderer;
+import org.krvlado.commonmark.renderer.Renderer;
 
 import java.util.ArrayList;
 import java.util.List;

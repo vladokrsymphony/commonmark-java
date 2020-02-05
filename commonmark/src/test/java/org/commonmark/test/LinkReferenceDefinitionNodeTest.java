@@ -1,7 +1,7 @@
-package org.commonmark.test;
+package org.krvlado.commonmark.test;
 
-import org.commonmark.node.*;
-import org.commonmark.parser.Parser;
+import org.krvlado.commonmark.node.*;
+import org.krvlado.commonmark.parser.Parser;
 import org.junit.Test;
 
 import java.util.List;

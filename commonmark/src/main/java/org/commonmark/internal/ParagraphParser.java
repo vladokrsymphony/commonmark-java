@@ -1,12 +1,12 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.node.Block;
-import org.commonmark.node.LinkReferenceDefinition;
-import org.commonmark.node.Paragraph;
-import org.commonmark.parser.InlineParser;
-import org.commonmark.parser.block.AbstractBlockParser;
-import org.commonmark.parser.block.BlockContinue;
-import org.commonmark.parser.block.ParserState;
+import org.krvlado.commonmark.node.Block;
+import org.krvlado.commonmark.node.LinkReferenceDefinition;
+import org.krvlado.commonmark.node.Paragraph;
+import org.krvlado.commonmark.parser.InlineParser;
+import org.krvlado.commonmark.parser.block.AbstractBlockParser;
+import org.krvlado.commonmark.parser.block.BlockContinue;
+import org.krvlado.commonmark.parser.block.ParserState;
 
 import java.util.List;
 

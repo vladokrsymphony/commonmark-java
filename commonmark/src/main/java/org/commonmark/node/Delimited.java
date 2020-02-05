@@ -1,4 +1,4 @@
-package org.commonmark.node;
+package org.krvlado.commonmark.node;
 
 /**
  * A node that uses delimiters in the source form (e.g. <code>*bold*</code>).

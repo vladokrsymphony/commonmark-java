@@ -1,7 +1,7 @@
-package org.commonmark.renderer.html;
+package org.krvlado.commonmark.renderer.html;
 
-import org.commonmark.node.*;
-import org.commonmark.renderer.NodeRenderer;
+import org.krvlado.commonmark.node.*;
+import org.krvlado.commonmark.renderer.NodeRenderer;
 
 import java.util.*;
 

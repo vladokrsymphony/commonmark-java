@@ -1,7 +1,7 @@
-package org.commonmark.parser.block;
+package org.krvlado.commonmark.parser.block;
 
-import org.commonmark.node.Block;
-import org.commonmark.parser.InlineParser;
+import org.krvlado.commonmark.node.Block;
+import org.krvlado.commonmark.parser.InlineParser;
 
 /**
  * Parser for a specific block node.

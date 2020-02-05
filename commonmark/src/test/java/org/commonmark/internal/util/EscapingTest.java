@@ -1,4 +1,4 @@
-package org.commonmark.internal.util;
+package org.krvlado.commonmark.internal.util;
 
 import org.junit.Test;
 

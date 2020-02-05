@@ -1,4 +1,4 @@
-package org.commonmark.node;
+package org.krvlado.commonmark.node;
 
 /**
  * Abstract visitor that visits all children by default.

@@ -1,20 +1,20 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.internal.inline.BoldDelimiterProcessor;
-import org.commonmark.internal.inline.DeletedDelimiterProcessor;
-import org.commonmark.internal.inline.ItalicDelimiterProcessor;
-import org.commonmark.internal.inline.MonospaceDelimiterProcessor;
-import org.commonmark.internal.inline.SubscriptDelimiterProcessor;
-import org.commonmark.internal.inline.SuperscriptDelimiterProcessor;
-import org.commonmark.internal.inline.UnderlineDelimiterProcessor;
-import org.commonmark.internal.util.Escaping;
-import org.commonmark.internal.util.Html5Entities;
-import org.commonmark.internal.util.LinkScanner;
-import org.commonmark.internal.util.Parsing;
-import org.commonmark.node.*;
-import org.commonmark.parser.InlineParser;
-import org.commonmark.parser.InlineParserContext;
-import org.commonmark.parser.delimiter.DelimiterProcessor;
+import org.krvlado.commonmark.internal.inline.BoldDelimiterProcessor;
+import org.krvlado.commonmark.internal.inline.DeletedDelimiterProcessor;
+import org.krvlado.commonmark.internal.inline.ItalicDelimiterProcessor;
+import org.krvlado.commonmark.internal.inline.MonospaceDelimiterProcessor;
+import org.krvlado.commonmark.internal.inline.SubscriptDelimiterProcessor;
+import org.krvlado.commonmark.internal.inline.SuperscriptDelimiterProcessor;
+import org.krvlado.commonmark.internal.inline.UnderlineDelimiterProcessor;
+import org.krvlado.commonmark.internal.util.Escaping;
+import org.krvlado.commonmark.internal.util.Html5Entities;
+import org.krvlado.commonmark.internal.util.LinkScanner;
+import org.krvlado.commonmark.internal.util.Parsing;
+import org.krvlado.commonmark.node.*;
+import org.krvlado.commonmark.parser.InlineParser;
+import org.krvlado.commonmark.parser.InlineParserContext;
+import org.krvlado.commonmark.parser.delimiter.DelimiterProcessor;
 
 import java.util.*;
 import java.util.regex.Matcher;

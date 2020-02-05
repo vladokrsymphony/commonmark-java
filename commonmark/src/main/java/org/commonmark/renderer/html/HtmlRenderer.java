@@ -1,11 +1,11 @@
-package org.commonmark.renderer.html;
+package org.krvlado.commonmark.renderer.html;
 
-import org.commonmark.Extension;
-import org.commonmark.internal.renderer.NodeRendererMap;
-import org.commonmark.internal.util.Escaping;
-import org.commonmark.node.*;
-import org.commonmark.renderer.NodeRenderer;
-import org.commonmark.renderer.Renderer;
+import org.krvlado.commonmark.Extension;
+import org.krvlado.commonmark.internal.renderer.NodeRendererMap;
+import org.krvlado.commonmark.internal.util.Escaping;
+import org.krvlado.commonmark.node.*;
+import org.krvlado.commonmark.renderer.NodeRenderer;
+import org.krvlado.commonmark.renderer.Renderer;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

@@ -1,4 +1,4 @@
-package org.commonmark.renderer.text;
+package org.krvlado.commonmark.renderer.text;
 
 import java.io.IOException;
 

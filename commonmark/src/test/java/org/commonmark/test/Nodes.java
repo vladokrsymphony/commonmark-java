@@ -1,6 +1,6 @@
-package org.commonmark.test;
+package org.krvlado.commonmark.test;
 
-import org.commonmark.node.Node;
+import org.krvlado.commonmark.node.Node;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.commonmark;
+package org.krvlado.commonmark;
 
 /**
  * Base interface for a parser/renderer extension.

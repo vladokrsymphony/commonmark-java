@@ -1,6 +1,6 @@
-package org.commonmark.internal.renderer.text;
+package org.krvlado.commonmark.internal.renderer.text;
 
-import org.commonmark.node.OrderedList;
+import org.krvlado.commonmark.node.OrderedList;
 
 public class OrderedListHolder extends ListHolder {
     private final char delimiter;

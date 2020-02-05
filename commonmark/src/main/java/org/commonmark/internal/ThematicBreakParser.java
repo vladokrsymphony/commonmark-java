@@ -1,8 +1,8 @@
-package org.commonmark.internal;
+package org.krvlado.commonmark.internal;
 
-import org.commonmark.node.Block;
-import org.commonmark.node.ThematicBreak;
-import org.commonmark.parser.block.*;
+import org.krvlado.commonmark.node.Block;
+import org.krvlado.commonmark.node.ThematicBreak;
+import org.krvlado.commonmark.parser.block.*;
 
 public class ThematicBreakParser extends AbstractBlockParser {
 

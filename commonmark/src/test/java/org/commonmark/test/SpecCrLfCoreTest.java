@@ -1,7 +1,7 @@
-package org.commonmark.test;
+package org.krvlado.commonmark.test;
 
-import org.commonmark.parser.Parser;
-import org.commonmark.renderer.html.HtmlRenderer;
+import org.krvlado.commonmark.parser.Parser;
+import org.krvlado.commonmark.renderer.html.HtmlRenderer;
 import org.commonmark.testutil.SpecTestCase;
 import org.commonmark.testutil.example.Example;
 
